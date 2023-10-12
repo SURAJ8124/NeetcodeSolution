@@ -1,0 +1,22 @@
+242. Valid Anagram
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of different word or phrase
+typically using all the original letters exactly once.
+
+Example 1:
+
+Input: s = "anagram", t = "nagaram"
+Output: true
+
+Example 2:
+
+Input: s = "rat", t = "car"
+Output: false
+
+approch:
+1)Creating one hashmap that contains the frequency of each string value
+2) first loop created and storing the frequency of s string
+3) second loop iterate on t string and checking each character is present in hashmap
+means actually it is checking frequency of that character if that value is present then remove it frequency.
+
+
